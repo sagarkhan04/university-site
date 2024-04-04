@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">   <!--for makeing responsive-->
+        <title>Welcome to University page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+   
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/>
+
+    </head>
+    <body>
+    <section class="sub-header">
+       <nav>
+           <a href="index.html"><img src="BD_images/Logo1.png"></a>
+           <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="about.html">ABOUT</a></li>
+                   <li><a href="course.html">COURSE</a></li>
+                   <li><a href="blog.html">BLOG</a></li>
+                   <li><a href="">CONTACT</a></li>
+                   <li><a href="" class="hero_btn">Sign-in</a></li>
+               </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+         <h1>Contact Us</h1>
+
+        </section>
+        
+       
+     <!-----contact us ---->
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.3284703097697!2d91.8441146142693!3d22.34122294705544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ad2743ff657673%3A0x837b3c815bacbbd1!2sMiakhan%20Nagar%20Rd%2C%20Chittagong!5e0!3m2!1sen!2sbd!4v1662897863591!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                   <div>
+                    <i class="fa fa-home" ></i>
+                    <span>
+                        <h5>Mea Khan Nagar</h5>
+                        <p>South Bakolia,Chittagong</p>
+                    </span>
+                    </div>
+                    <div>
+                     <i class="fa fa-phone" ></i>
+                    <span>
+                        <h5>+88 0189765432</h5>
+                        <p>Saturday to Wednesday, 10PM to 3PM</p>
+                    </span>
+                </div>
+                <div>
+                     <i class="fa fa-envelope-o" ></i>
+                    <span>
+                        <h5>humpa@institute.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+                </div>
+                
+                <div class="contact-col">
+                   <form action="form-handler.php">
+                       <input type="text" placeholder="Enter your name" required>
+                       <input type="email" placeholder="Enter email address" required>
+                       <input type="text" placeholder="Enter your subject" required>
+                       <textarea rows="8" placeholder="message" required></textarea>
+                       <button type="submit" class="hero_btn red-btn">Send Message</button>
+                   </form> 
+                   
+                </div>
+            </div>
+        </section>
+       
+        
+       
+        
+        
+       
+    
+         <!---Footer ---->
+         
+        <section class="footer">
+            <h4>About Us</h4>
+              <p>ext ever since the 1500s, when an unknown printer took a galley of type and scrambled an unknown <br>printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap </p>
+              <div class="icons">
+                  <i class="fa fa-facebook" ></i>
+                    <i class="fa fa-instagram" ></i>
+                    <i class="fa fa-twitter" ></i>
+                    <i class="fa fa-snapchat" ></i>
+                    <i class="fa fa-linkedin" ></i>
+              </div>
+               <p>Made with <i class="fa fa-heart-o" ></i> Afroza Khanom</p>
+              
+        </section>
+        
+         <!------javascript for Toggle menu----->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        
+        </script>
+    
+    
+    </body>
+</html>
+
+
+
